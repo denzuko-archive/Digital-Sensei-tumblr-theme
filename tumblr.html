@@ -471,6 +471,8 @@
           }
           {CustomCSS}
       </style>
+	  <!-- Include the Google Friend Connect javascript library. -->
+	  <script type="text/javascript" src="http://www.google.com/friendconnect/script/friendconnect.js"></script>
   </head>
   <body>
     <div id="header">
@@ -605,42 +607,45 @@
                   <a rel="prev" href="{PreviousPage}">Newer &#187;</a>
               {/block:PreviousPage}
           </div>
-				</div>
+		</div>
       </div>
 
-			<div id="sidebar">
-							<div id="infoBlock">
-								<div class="blogMeta">
-								  <h1><a rel="me home" href="/">{Title}</a></h1>
-									
-									<a rel="me"  href="{RSS}" class="rss">Subscribe to "{Title}"</a>
-                  <!-- <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=denzuko', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Subscribe by email: <input type="text" style="width:140px" name="email"/> <input type="hidden" value="denzuko" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /></form> -->
-									
-									<div id="search">
-										<form action="/search" method="get">
-										    <input type="text" name="q" id="searchInput" value="{SearchQuery}"/>
-										    <button type="submit" value="Search blog">Search</button>
-										</form>
-									</div>
-									<div id="blogcatalog">
-									<script type="text/javascript" src="http://www.blogcatalog.com/w/recent.php?id=4498132&amp;width=180&amp;rows=5&amp;bgcolor=EEEEEE&amp;bcolor=FFFFFF&amp;lcolor=333333&amp;hcolor=0033CC&amp;htext=Recent%20Viewers&amp;name=0&amp;img=l"></script></div>
-                </div>
-								<div class="streamMeta">
-								  <h2 class="streamTitle">Other activity (stream)</h2>
-								  <a href="http://friendfeed.com/denzuko?format=atom" class="rss">Subscribe to the stream</a>
-								</div>
-							</div>
-							<p id="getTheme"><a href="http://gethub.com/denzuko/digital-sensei-tumblr-theme/">Theme</a> by <a href="http://denzuko.wordpress.com">denzuko</a></p>
+	  <div id="sidebar">
+		<div id="infoBlock">
+		  <div class="blogMeta">
+			<h1><a rel="me home" href="/">{Title}</a></h1>
 
-							<div id="stream">
-							
-								<script type="text/javascript" src="http://friendfeed.com/embed/widget/denzuko?v=2&amp;num=15&amp;hide_subscribe=1"></script>
-							</div>
-      </div>
+			<a rel="me"  href="{RSS}" class="rss">Subscribe to "{Title}"</a>
+             <!-- <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=denzuko', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Subscribe by email: <input type="text" style="width:140px" name="email"/> <input type="hidden" value="denzuko" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /></form> -->
 
-			<div id="footer">
-					<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dc:title" rel="dc:type">Based on a <a href="http://blog.kohlhofer.com/post/55656286/tumblrtheme" title="Get this theme for your site">theme</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://denzuko.wordpress.com" property="cc:attributionName" rel="cc:attributionURL">Denzuko</a>, <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike License</a>.
+			<div id="search">
+			  <form action="/search" method="get">
+				<input type="text" name="q" id="searchInput" value="{SearchQuery}"/>
+				<button type="submit" value="Search blog">Search</button>
+			  </form>
 			</div>
+
+			<div id="blogcatalog">
+			  <script type="text/javascript" src="http://www.blogcatalog.com/w/recent.php?id=4498132&amp;width=180&amp;rows=5&amp;bgcolor=EEEEEE&amp;bcolor=FFFFFF&amp;lcolor=333333&amp;hcolor=0033CC&amp;htext=Recent%20Viewers&amp;name=0&amp;img=l"></script>
+			</div>
+          </div>
+
+		  <div class="streamMeta">
+			<h2 class="streamTitle">Other activity (stream)</h2>
+			<a href="http://friendfeed.com/denzuko?format=atom" class="rss">Subscribe to the stream</a>
+		  </div>
+		</div>
+		<p id="getTheme"><a href="http://gethub.com/denzuko/digital-sensei-tumblr-theme/">Theme</a> by <a href="http://denzuko.wordpress.com">denzuko</a></p>
+		<div id="stream">
+		  <script type="text/javascript" src="http://friendfeed.com/embed/widget/denzuko?v=2&amp;num=15&amp;hide_subscribe=1"></script>
+		</div>
+      </div>
+
+	  <div id="footer">
+		<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dc:title" rel="dc:type">Based on a <a href="http://blog.kohlhofer.com/post/55656286/tumblrtheme" title="Get this theme for your site">theme</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://denzuko.wordpress.com" property="cc:attributionName" rel="cc:attributionURL">Denzuko</a>, <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike License</a>.
+	  </div>
+	  <!-- Define the div tag where the gadget will be inserted. -->
+	  <div id="div-3039658918529427969"></div>
       <script id='aptureScript' type="text/javascript" src="http://www.apture.com/js/apture.js?siteToken=UPW49xz" charset='utf-8'></script>
       <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -656,6 +661,30 @@
       _qoptions={
       qacct:"p-44doH_vcojIsk"
       };
+      </script>
+	  <!-- Render the gadget into a div. -->
+      <script type="text/javascript">
+		var skin = {};
+		skin['BORDER_COLOR'] = '#eee';
+		skin['ENDCAP_BG_COLOR'] = '#fff';
+		skin['ENDCAP_TEXT_COLOR'] = '#444';
+		skin['ENDCAP_LINK_COLOR'] = '#069';
+		skin['ALTERNATE_BG_COLOR'] = '#fff';
+		skin['CONTENT_BG_COLOR'] = '#fff';
+		skin['CONTENT_LINK_COLOR'] = '#069';
+		skin['CONTENT_TEXT_COLOR'] = '#444';
+		skin['CONTENT_SECONDARY_LINK_COLOR'] = '#ddd';
+		skin['CONTENT_SECONDARY_TEXT_COLOR'] = '#069';
+		skin['CONTENT_HEADLINE_COLOR'] = '#444';
+		skin['POSITION'] = 'bottom';
+		skin['DEFAULT_COMMENT_TEXT'] = '- add your comment here -';
+		skin['HEADER_TEXT'] = 'Talk back';
+	    google.friendconnect.container.setParentUrl('/' /* location of rpc_relay.html and canvas.html */);
+	    google.friendconnect.container.renderSocialBar(
+		{ id: 'div-3039658918529427969',
+		  site: '01056226895088600417',
+		  'view-params':{"scope":"SITE","features":"video,comment","showWall":"true"}
+		}, skin);
       </script>
       <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
       <noscript>
